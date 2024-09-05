@@ -1,0 +1,93 @@
+{% extends "erbase.html" %}
+
+{% block content %}
+       <!-- Showcase -->
+    <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1>Become a <span class="text-warning"> Reporter </span></h1>
+            <p class="lead my-4">
+              Enlighten Radio on the crafts, works, relations, philosophies and stories of American workplaces.
+            </p>
+            <button
+              class="btn btn-primary btn-lg"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              Sign UP Now
+            </button>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="/static/img/er_store.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Boxes -->
+    <section class="p-5">
+      <div class="container">
+        <div class="row text-center g-4">
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <h3 class="card-title mb-3">Red Caboose Analytics </h3>
+                <p class="card-text">
+                  Research on West Virginia Political Economy plus an embedded views of the socialist
+                  economics Facebook group page, as well as the socialist economics website.
+                </p>
+                <a href="/analytics" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-secondary text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-person-square"></i>
+                </div>
+                <h3 class="card-title mb-3">Shows and Podcasts</h3>
+                <p class="card-text">
+                  The current calendar of live shows, programmed music on Enlighten Radio.
+                  Plus: the latest podcasts: Labor Beat, Turd Sandwich Cafe,
+                  Storytelling Hour, Poetry Show, Winners and Losers, Recovery Radio.
+
+                </p>
+                <a href="/shows" class="btn btn-dark">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card bg-dark text-light">
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h3 class="card-title mb-3">Reporters Only</h3>
+                <p class="card-text">
+                  Join our Team! Like Pirate Radio and Underground Radio we travel under the tarp
+                  of American workplaces and working lives. Learn to do internet radio,
+                  change history, and not get fired doing so!
+                </p>
+                <a href="/home" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+{% endblock %}
+
+
+
+
+
+
